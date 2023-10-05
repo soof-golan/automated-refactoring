@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "automated-refactoring"
+version = "0.1.0"
+description = ""
+authors = ["Soof Golan <hi@soofgolan.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+libcst = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+black = "^23.9.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
